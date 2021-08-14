@@ -1,0 +1,35 @@
+h1 {
+color : brown
+
+}
+/** {
+border : solid 
+
+}*/
+
+.header {
+   background-color: rgb(99, 241, 16); 
+   display: flex;
+   justify-content: space-between;
+}
+
+.grid {
+display:flex ;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+.item{
+display: block;
+position: relative ;
+}
+
+.footer {
+display: flex;
+justify-content: flex-end;
+
+}
+
+p,h2 {
+    text-align:center ;
+}
